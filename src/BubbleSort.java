@@ -18,6 +18,11 @@ public class BubbleSort {
         for (int i = 0; i< a.length; i++){
             System.out.print(" "+ a[i]);
         }
+        BubbleSort bubbleSort = new BubbleSort();
+        bubbleSort.shuchu();
+    }
+    public void shuchu(){
+        System.out.println("123");
     }
 
 }
